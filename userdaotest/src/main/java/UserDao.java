@@ -6,9 +6,7 @@ public class UserDao {
     // connection 후 sql작성, sql 실행, 결과 User에 매핑, 자원 해지, 결과 리턴
 
     public User get(int id) throws ClassNotFoundException, SQLException {
-        Class.forName("com.mysql.jdbc.Driver");
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/spring?charactorEncoding=utf-8"
-                , "root", "dahee");
+        Connection connection = getConnection();
 
         PreparedStatement preparedStatement =
                 connection.prepareStatement("select * from userinfo where id = ?");
@@ -49,5 +47,11 @@ public class UserDao {
         preparedStatement.close();
         connection.close();
         return id;
+    }
+
+    private Connection getConnection() throws ClassNotFoundException, SQLException {
+        Class.forName("com.mysql.jdbc.Driver");
+        return DriverManager.getConnection("jdbc:mysql://localhost/spring?charactorEncoding=utf-8"
+                , "root", "dahee");
     }
 }

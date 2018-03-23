@@ -1,3 +1,4 @@
+
 import static org.hamcrest.MatcherAssert.*;
 import static org.hamcrest.CoreMatchers.*;
 
@@ -19,9 +20,14 @@ public class UserDaoTest {
     public void get() throws SQLException, ClassNotFoundException {
         int id= 1;
         User user = userDao.get(id);
+        int userid = user.getId();
+        String username = user.getName();
+        String userpassword = user.getPassword();
+        System.out.printf("%d %s %s", userid, username, userpassword);
         assertThat(user.getId(), is(1));
-        assertThat(user.getName(), is("허윤호"));
+        assertThat(user.getName(), is("강다희"));
         assertThat(user.getPassword(), is("1234"));
+
     }
 
     @Test

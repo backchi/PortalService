@@ -11,26 +11,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="User.class" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/production/userdao/User.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="UserDaoTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/UserDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="274">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,12 +29,12 @@
       <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="340">
+              <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
               <folding>
-                <marker date="1521189328533" expanded="true" signature="257:292" ph="select * fro... userinfo" />
-                <marker date="1521189328533" expanded="true" signature="1231:1281" ph="insert into userinfo... " />
-                <marker date="1521189328533" expanded="true" signature="1503:1526" ph="select last_... " />
+                <marker date="1521297418664" expanded="true" signature="257:292" ph="select * fro... userinfo" />
+                <marker date="1521297418664" expanded="true" signature="1229:1279" ph="insert into userinfo... " />
+                <marker date="1521297418664" expanded="true" signature="1501:1524" ph="select last_... " />
               </folding>
             </state>
           </provider>
@@ -53,8 +43,8 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="145">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding>
                 <element signature="e#247#248#0" expanded="true" />
                 <element signature="e#274#275#0" expanded="true" />
@@ -96,9 +86,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="441" />
-    <option name="y" value="15" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="984" />
+    <option name="y" value="8" />
     <option name="width" value="1400" />
     <option name="height" value="990" />
   </component>
@@ -117,6 +107,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,13 +148,6 @@
             <path>
               <item name="userdao" type="b2602c69:ProjectViewProjectNode" />
               <item name="userdao" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="userdao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="userdao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="userdao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -195,17 +180,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -234,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserDaoTest.add">
+  <component name="RunManager" selected="JUnit.UserDaoTest.get">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -383,9 +366,9 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UserDaoTest.add" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UserDaoTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UserDaoTest.get" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UserDaoTest.get" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserDaoTest.add" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UserDaoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -405,46 +388,47 @@
       <workItem from="1521181123245" duration="5102000" />
       <workItem from="1521186510583" duration="883000" />
       <workItem from="1521187443135" duration="2503000" />
+      <workItem from="1521272952872" duration="11664000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserDaoTest - 2018.03.16 at 16h 32m 54s.xml">
-      <configuration name="UserDaoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTest - 2018.03.16 at 16h 36m 44s.xml">
-      <configuration name="UserDaoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTest - 2018.03.16 at 16h 49m 09s.xml">
-      <configuration name="UserDaoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTest_add - 2018.03.16 at 17h 32m 13s.xml">
-      <configuration name="UserDaoTest.add" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTest_add - 2018.03.16 at 17h 34m 56s.xml">
-      <configuration name="UserDaoTest.add" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTest_add - 2018.03.16 at 17h 35m 53s.xml">
-      <configuration name="UserDaoTest.add" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTest_add - 2018.03.16 at 17h 38m 50s.xml">
-      <configuration name="UserDaoTest.add" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTest_add - 2018.03.16 at 17h 40m 21s.xml">
-      <configuration name="UserDaoTest.add" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTest_get - 2018.03.16 at 16h 21m 58s.xml">
+    <history-entry file="UserDaoTest_get - 2018.03.17 at 18h 00m 47s.xml">
       <configuration name="UserDaoTest.get" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_get - 2018.03.16 at 16h 27m 00s.xml">
+    <history-entry file="UserDaoTest_get - 2018.03.17 at 18h 00m 55s.xml">
+      <configuration name="UserDaoTest.get" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_get - 2018.03.17 at 18h 01m 02s.xml">
+      <configuration name="UserDaoTest.get" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_get - 2018.03.17 at 22h 44m 23s.xml">
+      <configuration name="UserDaoTest.get" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_get - 2018.03.17 at 23h 00m 44s.xml">
+      <configuration name="UserDaoTest.get" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_get - 2018.03.18 at 00h 08m 44s.xml">
+      <configuration name="UserDaoTest.get" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_get - 2018.03.18 at 00h 09m 58s.xml">
+      <configuration name="UserDaoTest.get" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_get - 2018.03.18 at 00h 10m 20s.xml">
+      <configuration name="UserDaoTest.get" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_get - 2018.03.18 at 00h 11m 25s.xml">
+      <configuration name="UserDaoTest.get" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_get - 2018.03.18 at 00h 11m 44s.xml">
       <configuration name="UserDaoTest.get" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8488000" />
+    <option name="totallyTimeSpent" value="20152000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="984" y="8" width="1400" height="990" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -456,18 +440,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39517015" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42203987" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17945008" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39956093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39956093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -484,11 +468,62 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/UserDaoTest.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/UserDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/userdao/User.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <marker date="1521297418664" expanded="true" signature="257:292" ph="select * fro... userinfo" />
+            <marker date="1521297418664" expanded="true" signature="1229:1279" ph="insert into userinfo... " />
+            <marker date="1521297418664" expanded="true" signature="1501:1524" ph="select last_... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -506,8 +541,8 @@
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -517,9 +552,9 @@
         <state relative-caret-position="92">
           <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
           <folding>
-            <marker date="1521189328533" expanded="true" signature="257:292" ph="select * fro... userinfo" />
-            <marker date="1521189328533" expanded="true" signature="1231:1281" ph="insert into userinfo... " />
-            <marker date="1521189328533" expanded="true" signature="1503:1526" ph="select last_... " />
+            <marker date="1521297418664" expanded="true" signature="257:292" ph="select * fro... userinfo" />
+            <marker date="1521297418664" expanded="true" signature="1229:1279" ph="insert into userinfo... " />
+            <marker date="1521297418664" expanded="true" signature="1501:1524" ph="select last_... " />
           </folding>
         </state>
       </provider>
@@ -543,16 +578,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/userdao/User.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="-207">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="145">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding>
             <element signature="e#247#248#0" expanded="true" />
             <element signature="e#274#275#0" expanded="true" />
@@ -562,24 +597,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UserDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="274">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="340">
+          <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
           <folding>
-            <marker date="1521189328533" expanded="true" signature="257:292" ph="select * fro... userinfo" />
-            <marker date="1521189328533" expanded="true" signature="1231:1281" ph="insert into userinfo... " />
-            <marker date="1521189328533" expanded="true" signature="1503:1526" ph="select last_... " />
+            <marker date="1521297418664" expanded="true" signature="257:292" ph="select * fro... userinfo" />
+            <marker date="1521297418664" expanded="true" signature="1229:1279" ph="insert into userinfo... " />
+            <marker date="1521297418664" expanded="true" signature="1501:1524" ph="select last_... " />
           </folding>
         </state>
       </provider>

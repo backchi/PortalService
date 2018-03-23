@@ -14,6 +14,7 @@ public class UserDaoTest {
 
     @Before
     public void setup() {
+        daoFactory = new DaoFactory();
         UserDao = daoFactory.getUserDao();
     }
 

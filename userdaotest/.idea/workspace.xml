@@ -15,12 +15,10 @@
       <file leaf-file-name="UserDaoTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/UserDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="368">
+              <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -437,14 +435,11 @@
       <workItem from="1521302782550" duration="121000" />
       <workItem from="1521445866575" duration="599000" />
       <workItem from="1521783995051" duration="403000" />
-      <workItem from="1521784554652" duration="6651000" />
+      <workItem from="1521784554652" duration="6717000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserDaoTest - 2018.03.23 at 16h 08m 44s.xml">
-      <configuration name="UserDaoTest" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="UserDaoTest - 2018.03.23 at 16h 09m 10s.xml">
       <configuration name="UserDaoTest" configurationId="AndroidJUnit" />
     </history-entry>
@@ -472,9 +467,12 @@
     <history-entry file="UserDaoTest - 2018.03.23 at 16h 46m 55s.xml">
       <configuration name="UserDaoTest" configurationId="AndroidJUnit" />
     </history-entry>
+    <history-entry file="UserDaoTest - 2018.03.23 at 16h 51m 35s.xml">
+      <configuration name="UserDaoTest" configurationId="AndroidJUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18341000" />
+    <option name="totallyTimeSpent" value="18407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -526,8 +524,6 @@
           <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -573,8 +569,6 @@
           <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -620,8 +614,6 @@
           <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -667,8 +659,6 @@
           <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -816,12 +806,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UserDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="368">
+          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
           </folding>
         </state>
       </provider>

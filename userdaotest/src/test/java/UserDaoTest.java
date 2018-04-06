@@ -2,6 +2,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.GenericApplicationContext;
 
 import java.sql.SQLException;
 
@@ -20,7 +21,8 @@ public class UserDaoTest {
     @Before
     public void setup() {
       ApplicationContext applicationContext = new AnnotationConfigApplicationContext(DaoFactory.class);
-      userDao = applicationContext.getBean(UserDao.class);
+//      ApplicationContext applicationContext = new GenericApplicationContext();?
+        userDao = applicationContext.getBean(UserDao.class);
     }
 
     @Test

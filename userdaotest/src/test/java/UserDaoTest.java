@@ -1,6 +1,8 @@
+import com.mysql.jdbc.ConnectionImpl;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.sql.Connection;
 import java.sql.SQLException;
 
 import static org.hamcrest.CoreMatchers.is;
@@ -9,13 +11,20 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class UserDaoTest {
 
     private UserDao UserDao;
+//    JejuConnectionMaker jejuConnectionMaker;
     private DaoFactory daoFactory;
+//    private DaoFactory daoFactory;
+//    ConnectionMaker ConnectionMaker;
     // DaoFactory가 spring framework. defendency injection
 
     @Before
     public void setup() {
         daoFactory = new DaoFactory();
+//        jejuConnectionMaker = new JejuConnectionMaker();
         UserDao = daoFactory.getUserDao();
+//        daoFactory = new DaoFactory();
+//        ConnectionMaker = new ConnectionMaker();
+//        UserDao = daoFactory.getUserDao();
     }
 
     @Test

@@ -3,7 +3,7 @@ public class DaoFactory {
         return new UserDao(getConnectionMaker());
     }
 
-    public ConnectionMaker getConnectionMaker() {
+    private ConnectionMaker getConnectionMaker() {
         return new JejuConnectionMaker();
     }
 }

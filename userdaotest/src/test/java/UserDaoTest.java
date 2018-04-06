@@ -1,8 +1,8 @@
-import com.mysql.jdbc.ConnectionImpl;
 import org.junit.Before;
 import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import java.sql.Connection;
 import java.sql.SQLException;
 
 import static org.hamcrest.CoreMatchers.is;
@@ -10,7 +10,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 public class UserDaoTest {
 
-    private UserDao UserDao;
+    private UserDao userDao;
 //    JejuConnectionMaker jejuConnectionMaker;
     private DaoFactory daoFactory;
 //    private DaoFactory daoFactory;
@@ -19,18 +19,14 @@ public class UserDaoTest {
 
     @Before
     public void setup() {
-        daoFactory = new DaoFactory();
-//        jejuConnectionMaker = new JejuConnectionMaker();
-        UserDao = daoFactory.getUserDao();
-//        daoFactory = new DaoFactory();
-//        ConnectionMaker = new ConnectionMaker();
-//        UserDao = daoFactory.getUserDao();
+      ApplicationContext applicationContext = new AnnotationConfigApplicationContext(DaoFactory.class);
+      userDao = applicationContext.getBean(UserDao.class);
     }
 
     @Test
     public void get() throws SQLException, ClassNotFoundException {
         int id = 1;
-        User user = UserDao.get(id);
+        User user = userDao.get(id);
         assertThat(user.getId(), is(1));
         assertThat(user.getName(), is("강다희"));
         assertThat(user.getPassword(), is("1234"));
@@ -41,9 +37,9 @@ public class UserDaoTest {
         User user = new User();
         user.setName("다희");
         user.setPassword("1111");
-        Integer id = UserDao.insert(user);
+        Integer id = userDao.insert(user);
 
-        User insertedUser = UserDao.get(id);
+        User insertedUser = userDao.get(id);
         assertThat(insertedUser.getId(), is(id));
         assertThat(insertedUser.getName(), is(user.getName()));
         assertThat(insertedUser.getPassword(), is(user.getPassword()));

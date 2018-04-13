@@ -2,7 +2,6 @@ import org.junit.Before;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.support.GenericApplicationContext;
 
 import java.sql.SQLException;
 
@@ -13,16 +12,12 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class UserDaoTest {
 
     private UserDao userDao;
-//    JejuConnectionMaker jejuConnectionMaker;
     private DaoFactory daoFactory;
-//    private DaoFactory daoFactory;
-//    ConnectionMaker ConnectionMaker;
-    // DaoFactory가 spring framework. defendency injection
+
 
     @Before
     public void setup() {
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(DaoFactory.class);
-//      ApplicationContext applicationContext = new GenericApplicationContext();?
         userDao = applicationContext.getBean(UserDao.class);
     }
     private User getUser() {

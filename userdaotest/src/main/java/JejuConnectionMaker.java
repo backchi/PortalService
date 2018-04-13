@@ -1,6 +1,5 @@
 import org.springframework.beans.factory.annotation.Value;
 
-import javax.validation.Valid;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
